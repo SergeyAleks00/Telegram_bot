@@ -1,5 +1,3 @@
-import json
-DICT_DATA = 'data/quiz_data.json'
 quiz_data = [
     {
         'question': 'Что такое Python?',
@@ -49,6 +47,3 @@ quiz_data = [
         'correct_option': 1
     },
 ]
-
-with open(DICT_DATA, 'w') as file:
-    json.dump(quiz_data, file)
